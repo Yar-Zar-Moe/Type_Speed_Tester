@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2224%22 font-size=%2232%22>⌨️</text></svg>"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Typing Speed Tester</h1>
+
+      <div class="duration">
+        <label for="duration">Test Duration:</label>
+        <select id="duration">
+          <option value="0" selected>Select duration</option>
+          <option value="30">30s</option>
+          <option value="60">60s</option>
+          <option value="90">90s</option>
+        </select>
+      </div>
+
+      <div id="quote" class="quote"></div>
+      <textarea id="input" placeholder="Start typing here..."></textarea>
+
+      <div class="stats">
+        <p>⏱ Time: <span id="timer">0</span>s</p>
+        <p>⚡ Speed: <span id="wpm">0</span> WPM</p>
+        <p>✅ Accuracy: <span id="accuracy">100</span>%</p>
+      </div>
+
+      <button id="restart">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

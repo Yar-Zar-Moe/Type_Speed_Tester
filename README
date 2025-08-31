@@ -1,0 +1,29 @@
+Typing Speed Tester
+
+A simple web-based typing speed tester built with HTML, CSS, and vanilla JavaScript.
+It fetches random quotes from an API and allows users to test their typing speed and accuracy for a selected duration.
+
+Features
+
+Select test duration: 30s, 60s, or 90s.
+
+Fetches random quotes from baconipsum API
+.
+
+Tracks time remaining, WPM (words per minute), and accuracy (%).
+
+Input is disabled until duration is selected.
+
+Test stops automatically when the time ends or quote is completed.
+
+Restart test at any time with a new quote.
+
+Technologies Used
+
+HTML – Structure of the page.
+
+CSS – Styling with a gradient background and responsive layout.
+
+JavaScript (Vanilla) – Handles typing logic, API fetch, timer, and stats.
+
+API – baconipsum for generating text.
